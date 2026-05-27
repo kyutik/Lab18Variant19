@@ -43,8 +43,6 @@ internal class Program
 
         double sumOddNumbers = 0;
 
-        // "Непарні номери" трактуємо як 1-й, 3-й, 5-й елемент,
-        // тобто індекси 0, 2, 4...
         for (int i = 0; i < array.Length; i++)
         {
             int elementNumber = i + 1;
@@ -114,7 +112,6 @@ internal class Program
             }
         }
 
-        // Решта елементів автоматично залишається 0
         return result;
     }
 
